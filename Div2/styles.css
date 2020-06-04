@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+<link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
+
+* {
+  font-family: Open Sans;
+  color: #999999;
+  background-color: #00001a;
+}
+
+html, body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.nav ul {
+  margin: 0px;
+}
+
+.nav li {
+  display: inline;
+}
+
+.nav a {
+  display: inline-block;
+  padding: .5em;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.nav a:hover {
+  background-color: #3d3d5c;
+}
+
+.main-nav {
+  text-align: center;
+  font-size: 110%;
+  border-bottom: 1px solid;
+}
+
+.main-nav li {
+  padding: 0 5%;
+}
+
+.main-header {
+  background-image: url("images/Coldplay background2.jpg");
+  background-size: 100% 100%;
+  padding-bottom: 100px;
+
+}
+
+.band-name {
+  text-align: center;
+  margin: 0px;
+  font-family: 'Alfa Slab One', cursive;
+}
