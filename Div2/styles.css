@@ -1,14 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
 
-<link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap");
 
-* {
-  font-family: Open Sans;
-  color: #999999;
-  background-color: #0000ba;
-}
+
 
 html, body {
+  font-family: Open Sans;
+  color: #999999;
+  background-color: #00001a;
   margin: 0px;
   padding: 0px;
 }
