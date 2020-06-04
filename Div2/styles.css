@@ -28,12 +28,12 @@ html, body {
 }
 
 .nav a:hover {
-  background-color: #3d3d5c;
+  background-color: rgb(61, 61, 92, 0.3);
 }
 
 .main-nav {
   text-align: center;
-  font-size: 110%;
+  font-size: 125%;
   border-bottom: 1px solid;
 }
 
@@ -51,5 +51,21 @@ html, body {
 .band-name {
   text-align: center;
   margin: 0px;
+  font-size: 1.5em;
   font-family: 'Alfa Slab One', cursive;
+  color: #ffffff;
+}
+
+.band-name-large {
+  font-size: 4em;
+}
+
+.content-section {
+  margin: 1em;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 1.5em;
 }
