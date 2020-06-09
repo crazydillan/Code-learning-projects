@@ -8,8 +8,15 @@ html, body {
   font-family: Open Sans;
   color: #e6e6e6;
   background-color: #000000;
+  line-height: 1.5;
   margin: 0px;
   padding: 0px;
+}
+
+.nav-logo {
+  background-image: url("images/Coldplay logo.webp");
+  background-size: 30px;
+  background-repeat: no-repeat;
 }
 
 .nav ul {
@@ -46,6 +53,7 @@ html, body {
   background-size: 100% 100%;
   padding-bottom: 100px;
   border-bottom: 1px solid;
+  filter: brightness(95%);
 }
 
 .band-name {
@@ -68,7 +76,7 @@ html, body {
   border-color: #00001a;
 }
 
-.section-container {
+.container {
   max-width: 900px;
   margin: 0 auto;
   padding: 0 1.5em;
@@ -97,4 +105,48 @@ html, body {
 
 .main-footer-nav li {
   padding: 0 5%;
+}
+
+.btn {
+  text-align: center;
+  vertical-align: middle;
+  padding: .5em;
+  cursor: pointer;
+}
+
+.btn-header {
+  margin: .5em 15% 2em 15%;
+  color: #ffffff;
+  border: 2px solid #2d9cdb;
+  background-color: rgba(255, 255, 255, .1);
+  border-radius: 0%;
+  font-size: 1em;
+  font-weight: lighter;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+.btn-header:hover {
+  background-color: rgba(255, 0, 0, 0.3);
+}
+
+.btn-play {
+  display: block;
+  margin: 0 auto;
+  color: #ffffff;
+  font-size: 1.5em;
+  border-radius: 50%;
+  padding: 0;
+  width: 50px;
+  height: 50px;
+}
+
+.tour-row {
+  border-bottom: 1px solid;
+  padding-bottom: 1em;
+  margin-bottom: 1em;
+}
+
+.tour-row:last-child {
+  border-bottom: none;
 }
