@@ -150,3 +150,38 @@ html, body {
 .tour-row:last-child {
   border-bottom: none;
 }
+
+.tour-item {
+  display: inline-block;
+  padding-right: .5em;
+  font-weight: bold;
+}
+
+.tour-date {
+  font-size: 1.2em;
+  width: 10%;
+}
+
+.tour-city {
+  width: 24%;
+}
+
+.tour-arena {
+  width: 42%;
+}
+
+.tour-btn {
+  max-width: 19%;
+}
+
+.primary-btn {
+  color: #ffffff;
+  background-color: #6666ff;
+  border: none;
+  border-radius: .3em;
+  font-weight: bold;
+}
+
+.primary-btn:hover {
+  background-color: rgba(255, 0, 0, 0.3);
+}
