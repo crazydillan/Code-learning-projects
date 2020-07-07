@@ -29,19 +29,19 @@
       <h2 class="section-header">SIGN UP FOR WEEKLY UPDATES</h2>
       <p>If you’d like to keep right up to date with all the latest Coldplay news, gigs, releases and competitions then sign up to our mailing list and we’ll be in touch.</p>
       <form action="/sign-in_page.com">
-        <div>
-          <input type="text" name="first-name" placeholder="First name*" required>
-          <span> <input type="text" name="Surname" placeholder="Surname*" required>
+        <div class="form-box">
+          <input class="form-field form-field-fname" type="text" name="first-name" placeholder="First name*" required>
+          <span> <input class="form-field form-field-sname" type="text" name="Surname" placeholder="Surname*" required>
           <br>
-          <input type="email" name="email" placeholder="Email*" required>
+          <input class="form-field form-field-email" type="email" name="email" placeholder="Email*" required>
           <br>
-          <input type="text" name="mobile-number" placeholder="Mobile number">
+          <input class="form-field form-field-number"type="text" name="mobile-number" placeholder="Mobile number">
           <br>
-          <input type="password" name="password" placeholder="Password*" required>
-          <input type="password" name="confirm-password" placeholder="Confirm password*" required>
+          <input class="form-field form-field-password" type="password" name="password" placeholder="Password*" required>
+          <input class="form-field form-field-cpassword" type="password" name="confirm-password" placeholder="Confirm password*" required>
           <br>
           <b>Birthday:</b>
-          <input type="date" name="birthdate" placeholder="Birthdate">
+          <input class="form-field form-field-bdate" type="date" name="birthdate" placeholder="Birthdate">
           <label>
             <input type="radio" name="Gender" value="male">Male
           </label>
@@ -55,9 +55,10 @@
           <label>
             <input type="checkbox" name="confirm" required>I have read and agree with the terms of our <b>Privacy Policy</b>.
           </label>
+          <br>
+          <button type="button" name="submit">Sign up</button>
         </div>
       </form>
-        <button type="button" name="submit">Sign up</button>
       <p><b>Disclaimer</b>: we will never give your details to any third parties.</p>
     </section>
     <footer class="main-footer-nav nav">
