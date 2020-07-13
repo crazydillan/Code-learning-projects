@@ -69,6 +69,17 @@ html, body {
   margin: 0px;
 }
 
+.colors {
+  animation-name: colorful;
+  animation duration 10s;
+}
+
+@keyframes colorful {
+  0% {color: white;}
+  50% {color: blue;}
+  100% {color: red;}
+}
+
 .section-content {
   margin: 1em;
   background-color: #00001a;
@@ -345,24 +356,24 @@ html, body {
 }
 
 .form-field-fname {
-  width: 300px;
+  width: 46%;
 }
 
 .form-field-sname {
-  width: 300px;
+  width: 46%;
 }
 
 .form-field-email {
-  width: 625px;
+  width: 95%;
 }
 .form-field-number {
-    width: 625px;
+    width: 95%;
 }
 
 .form-field-password {
-    width: 300px;
+    width: 46%;
 }
 
 .form-field-cpassword {
-    width: 300px;
+    width: 46%;
 }
